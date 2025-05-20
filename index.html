@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Linktree - Pierre Burnier</title>
+        <!-- Icônes Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- Feuille de style personnalisée -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <canvas id="background"></canvas>
+
+        <header class="profile">
+            <img
+                src="assets/avatar.png"
+                alt="Avatar de Pierre"
+                class="avatar"
+            />
+            <h1>Pierre Burnier</h1>
+            <p>Développeur Web</p>
+            <div class="small-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </header>
+
+        <main class="link-container">
+            <div class="link-card website">
+                <a href="#"
+                    ><i class="fa-solid fa-globe"></i
+                    ><span class="default-label">Site Web</span>
+                    <span class="alt-label">www.pierreburnier.dev</span></a
+                >
+            </div>
+            <div class="link-card linkedin">
+                <a href="#"
+                    ><i class="fab fa-linkedin"></i
+                    ><span class="default-label">LinkedIn</span>
+                    <span class="alt-label">Pierre Burnier</span></a
+                >
+            </div>
+            <div class="link-card youtube">
+                <a href="#"
+                    ><i class="fab fa-youtube"></i
+                    ><span class="default-label">Chaine YouTube</span>
+                    <span class="alt-label">Nerd en roue libre</span></a
+                >
+            </div>
+            <div class="link-card discord">
+                <a href="#"
+                    ><i class="fab fa-discord"></i
+                    ><span class="default-label">Serveur Discord</span>
+                    <span class="alt-label">Nerd en roue libre</span></a
+                >
+            </div>
+            <div class="link-card email">
+                <a href="mailto:pierre@example.com"
+                    ><i class="fa-solid fa-envelope"></i
+                    ><span class="default-label">Email</span>
+                    <span class="alt-label">contact@nerd.fr</span></a
+                >
+            </div>
+        </main>
+
+        <!-- Script d'animation du fond -->
+        <script src="js/background.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
